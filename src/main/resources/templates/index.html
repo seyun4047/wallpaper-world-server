@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>배경화면 전송</title>
+</head>
+<body>
+<p th:text="'SERVER PORT: ' + ${@portListener.port}"></p>
+
+<h2>UPLOAD IMAGE</h2>
+
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" required>
+    <button type="submit">Send</button>
+</form>
+
+</body>
+</html>
