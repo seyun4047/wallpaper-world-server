@@ -1,28 +1,50 @@
-# Gradle
-.gradle/
+HELP.md
+.gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
-
-# Distribution artifacts
+!**/src/main/**/build/
+!**/src/test/**/build/
 dist/
 *.dmg
 
-# IDE
-.idea/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
+*.ipr
 out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-# OS
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+/uploads
+
+# macOS
 .DS_Store
-
-# Local runtime data
-uploads/
 
 # Local generated icon set (keep final .icns)
 assets/macos/icon.iconset/
 
-# Scratch files
+# Local scratch/test files
 test-browse.java
-
-# Optional local docs
-HELP.md
