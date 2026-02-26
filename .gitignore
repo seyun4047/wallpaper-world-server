@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Distribution artifacts
+dist/
+*.dmg
+
+# IDE
+.idea/
+*.iml
+out/
+
+# OS
+.DS_Store
+
+# Local runtime data
+uploads/
+
+# Local generated icon set (keep final .icns)
+assets/macos/icon.iconset/
+
+# Scratch files
+test-browse.java
+
+# Optional local docs
+HELP.md
