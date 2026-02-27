@@ -1,4 +1,5 @@
 # 🌍 Wallpaper World
+### One command. Every screen.
 Change every screen you control. Instantly.
 <br>
 Wallpaper World lets you update the desktop wallpapers of multiple computers
@@ -25,5 +26,13 @@ Clients connect to your server via WebSocket
 - Wallpaper updates instantly
 
 
-** One command. Every screen. **
+---
+# 🖥️ Install
+This is the server application.
+Install it on the master computer
+<br>
+👉[DOWNLOAD v1.0.0 for mac os](https://github.com/seyun4047/wallpaper-world-server/releases/tag/v1.0.0)👈
 
+You can find the slave (client) application here.
+<br>
+👉[Slave](https://github.com/seyun4047/wallpaper-world-client)👈
